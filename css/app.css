@@ -1,0 +1,14 @@
+/*DESKTOP*/
+
+/*Chrome 32*/
+html[data-useragent*='Chrome/32.0'] { color: green; }
+
+/*Firefox 26*/
+/* DOESN'T WORK!!!!! */
+html[data-useragent*='Firefox/26.0'] { color: #f00; }
+
+/*Safari 7*/
+html[data-useragent*='Version/7.0 Safari'] { color: red; }
+
+/*Opera 18*/
+html[data-useragent*='OPR/18.0'] { color: orange; }

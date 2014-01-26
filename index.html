@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hawkeye</title>
+    <meta charset="iso-8859-1" />
+    <link rel="stylesheet" type="text" href="css/app.css" />
+  </head>    
+  <body>
+    <script>
+      var b = document.documentElement;
+      b.setAttribute('data-useragent',  navigator.userAgent);
+      b.setAttribute('data-platform', navigator.platform );
+      b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+    </script>
+
+    <p>Hello world!</p>
+
+  </body>
+</html>
